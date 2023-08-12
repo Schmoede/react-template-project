@@ -1,0 +1,21 @@
+{
+    "ts-node": {
+        "swc": true
+    },
+    "compilerOptions": {
+        "noEmit": true,
+        "strict": true,
+        "esModuleInterop": true,
+        "allowJs": true,
+        "jsx": "react",
+        "resolveJsonModule": true,
+        "moduleResolution": "node",
+        "skipLibCheck": true,
+        "lib": [
+            "ESNext",
+            "DOM"
+        ],
+        "sourceMap": true,
+        "target": "es2016"
+    }
+}
